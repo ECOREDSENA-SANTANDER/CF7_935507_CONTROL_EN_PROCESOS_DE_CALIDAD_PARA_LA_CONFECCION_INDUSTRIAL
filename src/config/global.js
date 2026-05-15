@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Clasificación de defectos e informes de calidad',
+    Description:
+      'Comprender la clasificación de defectos, tablas militares, informes de calidad, indicadores de calidad, técnicas de calidad, 7 herramientas de calidad, histograma, Pareto, diagrama causa efectos, estratificación, diagrama de correlación, diagrama de control, acciones de calidad. Identificar los indicadores de calidad, realizar cálculo de indicadores. Realizar plan de muestreo por aceptación, usando tablas militares. Comprender procedimiento de herramientas básicas de control de calidad. Desarrollar hojas de verificación, diagrama de Pareto, Histograma, dispersión, causa-efectos, estratificación y de control. Análisis de resultados, Desarrollar planes de calidad. Desarrollar acciones correctivas y de mejora.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -31,13 +32,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Clasificación de defectos',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Nivel del defecto',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Ubicación del defecto',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Uso de tablas militares',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,14 +56,25 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Informes de calidad',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Indicadores de calidad',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Técnicas de calidad: 7 herramientas de control de calidad',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Plan de acciones de calidad',
+            hash: 't_2_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -95,23 +117,92 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: 'Tema 1',
-      referencia: 'Texto',
-      tipo: 'Sitio web',
-      link: 'Link',
-    },
-  ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'AOQ=CPS',
+      significado:
+        'Calidad Promedio de Salida. Es la calidad promedio que se obtiene después del proceso de inspección.',
+    },
+    {
+      termino: 'AOQL=LCPS',
+      significado:
+        'Límite de Calidad Promedio de Salida. Resultado de la peor calidad promedio que puede obtenerse en el proceso de la inspección.',
+    },
+    {
+      termino: 'AQL=NCA',
+      significado:
+        'siglas de las palabras en inglés de Level Aceptation Quality, nivel de calidad aceptable, es el porcentaje máximo de unidades aceptable para el proceso, el cual debe estar especificado en la ficha técnica, contrato, órdenes de compra',
+    },
+    {
+      termino: 'Causas asignables',
+      significado:
+        'llamada también causa especial son las que varían de manera inusual un proceso, debido a que antes no se había presentado, no se había observado ni cuantificado.',
+    },
+    {
+      termino: 'Defecto',
+      significado:
+        'no cumplimiento de los requisitos de la prenda, desviaciones de los estándares de calidad de la prenda.',
+    },
+    {
+      termino: 'LTPD =NCL',
+      significado:
+        'traducción de las palabras de las siglas en ingles Lot Tolerance Proportion Defective, proporción defectuosa tolerable en el lote, es el peor nivel de calidad del lote que el cliente puede aceptar. También conocido como el Nivel de Calidad Límite. Nivel de calidad no satisfactorio, por lo tanto, debe ser rechazado el lote.',
+    },
+    {
+      termino: 'Rango',
+      significado:
+        'Es el intervalo comprendido entre el mayor y menor valor de un número de datos con el fin de medir su variación.',
+    },
+    {
+      termino: 'Neps',
+      significado:
+        'Pequeñas fibras gruesas en forma de puntos que se observan en el textil, es un defecto.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Brand Arroyave, C. (2008). Control de calidad para medianas y pequeñas empresas. Itagüí. [s.n.]. Editor: Universidad Jaume I. (2006). Manual de control estadístico de calidad: teoría y aplicaciones [E-book].',
+      link: '',
+    },
+    {
+      referencia:
+        'Evans, J., & Lindsay, W. (2015). Administración y control de la calidad [E-book] (9th ed.). Cengage.',
+      link: '',
+    },
+    {
+      referencia:
+        'Gutiérrez Pulido, H. (2013). Control estadístico de la calidad y seis sigma [E-book] (3rd ed.). McGraw-Hill Interamericana.',
+      link: '',
+    },
+    {
+      referencia:
+        'Jaramillo Zapata, J. (1990). Control de calidad en la confección [E-book]. Servicio Nacional de Aprendizaje (SENA).',
+      link: '',
+    },
+    {
+      referencia:
+        'Martínez Aguirre, G. (2012). La ingeniería en la industria de la confección. México. Editorial Trillas.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pérez Marqués, M. (2016). Control de calidad técnicas y herramientas (1st ed.). México. Alfaomega grupo editor.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pola Maceda, Á. (2009). Aplicación de la estadística al control de calidad. Marcombo.',
+      link: '',
+    },
+    {
+      referencia:
+        'Servicio Nacional de Aprendizaje (SENA). (1973). Programa de control de calidad. Unidad 1.5. Variabilidad de la calidad [E-book].',
+      link: '',
+    },
+    {
+      referencia:
+        'Villamizar Figueroa, J. (1992). Técnicas básicas para el análisis de datos [E-book]. Servicio Nacional de Aprendizaje (SENA).',
       link: '',
     },
   ],
@@ -122,7 +213,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Edison Eduardo Mantilla Cuadros',
@@ -145,17 +236,17 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: '--',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Yuly Andrea Rey Quiñonez',
+          cargo: 'Diseñadora de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '--',
-          cargo: 'Desarrollador <em>full stack</em>',
+          nombre: 'Andrea Paola Botello De la Rosa',
+          cargo: 'Desarrolladora <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Maria Alejandra Vera Briceño',
+          nombre: '',
           cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -165,12 +256,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Erika Daniela Manrique Rueda',
+          nombre: '',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Laura Paola Gelvez Manosalva',
+          nombre: '',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

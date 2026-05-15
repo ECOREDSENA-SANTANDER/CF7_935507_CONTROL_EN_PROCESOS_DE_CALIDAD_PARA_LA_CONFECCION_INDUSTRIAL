@@ -2,14 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 25%
+    right: 75%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 50%
+    right: 0%
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -20,11 +19,138 @@
 .banner-principal .tarjeta
   background-position: left 50% !important
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+  max-width: 600px !important   
 .banner-interno__titulo__icono i
   color: $color-primario
-figcaption
+figcaption, caption
   font-weight: normal
  
+.titulo-principal__numero
+  i, span
+    color: $color-sistema-texto !important
+.fa-lista
+  li
+    display: flex !important
+    align-items: flex-start
+  li:before
+    position: relative
+    margin-right: 7px
+    font-size: 1.4rem 
+.banner-interno .banner-interno__fondo
+  background-image:  url('../assets/curso/portada/mini-portada.png') !important
+  background-position: top left
+.lista-ul--color.color-primario li > i:first-of-type  
+  color: $color-primario
+.lista-ul--color.color-secundario li > i:first-of-type  
+  color: $color-secundario     
+.lista-ul--color.color-acento-botones li > i:first-of-type  
+  color: $color-acento-botones    
+.lista-ul--color.color-adicional-1 li > i:first-of-type  
+  color: $color-adicional-1  
+.lista-ul--color.color-adicional-2 li > i:first-of-type  
+  color: $color-adicional-2  
+.lista-ol--cuadro.color-primario .lista-ol--cuadro__vineta
+  background-color: $color-primario
+.bg-color-acento-botones
+  background-color: $color-acento-botones
+.bg-color-acento-contenido
+  background-color: $color-acento-contenido
+.bg-color-primario
+  background-color: $color-primario
+.bg-color-secundario
+  background-color: $color-secundario
+.bg-color-sistema-texto
+  background-color: $color-sistema-texto
+.text-color-sistema
+  color: $color-sistema-texto !important
+.bg-color-adicional-1
+  background-color: $color-adicional-1
+.ct-color-primario
+  color: $color-primario
+.ct-color-acento-botones
+  color: $color-acento-botones
+.ct-secundario 
+  color: $color-secundario !important
+.ct-acento-contenido 
+  color: $color-acento-contenido !important
+.w-fit
+  width: fit-content
+.columns-2
+  columns: 2
+.font-italic
+  font-style: italic !important
+.sin-borde
+  border: 0px !important
+.br-top
+  border-top-left-radius: 20px 
+  border-top-right-radius: 20px 
+.br-left
+  border-top-left-radius: 20px 
+  border-bottom-left-radius: 20px 
+.br-right
+  border-top-right-radius: 20px 
+  border-bottom-right-radius: 20px 
+.tabs-a__tab__text 
+  white-space: normal
+.l-circle i.fa-circle
+  font-size: 8px
+  top: 7px !important
+ 
+
+.bg1
+  background-color: #C1C5CB
+.bg2
+  background-color: #BBC3DC
+.bg3
+  background-color: #C0F1E1
+.bgcolor-1
+  background: #141A22
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  border-radius: 20px
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover
+
+.brt-60
+  border-top-right-radius: 60px
+.tabl1
+  tr td
+    text-align: center
+  tr td:first-child
+    text-align: start
+
+
+.acordion
+  &__titulo h3
+    color: $white
+  &__activo
+    background-color: #C0F1E1
+    .acordion__titulo h3
+      color: $color-sistema-texto
+  &__accion__btn--a
+    background-color: $color-acento-botones
+.tabs-c
+  &__tab
+    background-color: $color-primario
+    span
+      color: white
+    &--active
+      font-weight: bold
+      background-color: white
+      span
+        color: $color-sistema-texto
+.linea-tiempo-d
+  &__item__number
+    background-color: $color-acento-botones
+  &__item__content
+    background-color: #FCE2B5
+  &__item--selected 
+    .linea-tiempo-d__item__number
+      color: $color-sistema-texto !important 
+    .linea-tiempo-d__item__content
+      background-color: #C0F1E1

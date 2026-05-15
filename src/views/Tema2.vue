@@ -5,7 +5,34 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Tema 2
+      h1 Informes de calidad
+
+
+
+
+
+    Separador
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 2.1. Indicadores de calidad
+
+
+
+
+
+    Separador
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 2.2. Técnicas de calidad: 7 herramientas de control de calidad
+
+
+
+
+
+    Separador
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 2.3. Plan de acciones de calidad
+
+
+
 
 </template>
 
