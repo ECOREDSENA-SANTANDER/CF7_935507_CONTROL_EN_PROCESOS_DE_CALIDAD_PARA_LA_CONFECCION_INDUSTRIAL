@@ -95,7 +95,11 @@ figcaption, caption
 .l-circle i.fa-circle
   font-size: 8px
   top: 7px !important
- 
+.list-ico 
+  img 
+    width: 15px
+    min-width: 15px
+    margin-right: 8px
 
 .bg1
   background-color: #C1C5CB
@@ -103,6 +107,12 @@ figcaption, caption
   background-color: #BBC3DC
 .bg3
   background-color: #C0F1E1
+.bg4
+  background-color: #104936
+.bg5
+  background-color: #ECF2FB
+.bg6
+  background-color: #D5DCE5
 .bgcolor-1
   background: #141A22
   background-size: cover
@@ -115,6 +125,19 @@ figcaption, caption
   @media screen and (max-width: 767px)
     margin-inline: -1.4rem  
     background-size: cover
+.bgimg-1
+  background: url('../assets/curso/temas/t2/bg.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  border-radius: 20px
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover
+
 
 .brt-60
   border-top-right-radius: 60px
@@ -123,6 +146,56 @@ figcaption, caption
     text-align: center
   tr td:first-child
     text-align: start
+.subt
+  display: flex
+  align-items: center
+  gap: 1rem
+  position: relative
+  width: fit-content
+  img
+    width: 50px
+    z-index: 1
+  h3
+    z-index: 2
+    padding-right: 2.5rem
+  &::before
+    content: ''
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    right: 0px
+    width: 100%
+    height: 95%
+    border-radius: 500px
+    background-color: $color-acento-contenido
+.indicador-reproceso 
+  display: flex
+  align-items: center
+  gap: 10px
+  width: fit-content  
+  .label
+    line-height: 1.1  
+    color: $color-sistema-texto !important
+    width: 21%
+  .equal, .result 
+    color: $color-sistema-texto !important
+  .formula 
+    display: flex
+    align-items: center  
+  .fraction 
+    display: flex
+    flex-direction: column
+    align-items: center
+    max-width: 250px
+    text-align: center
+    .top, .bottom 
+      padding: 2px 10px
+      color: $color-sistema-texto !important
+    .top 
+      border-bottom: 2px solid #707070
+      width: 100%
+    
+  
 
 
 .acordion
@@ -154,3 +227,13 @@ figcaption, caption
       color: $color-sistema-texto !important 
     .linea-tiempo-d__item__content
       background-color: #C0F1E1
+.circl-arrow .slyder-f__btn i
+  font-size: 1.2rem
+  background-color: $color-acento-botones
+  height: 46px
+  width: 46px
+  padding: 5px
+  border-radius: 500px
+  display: flex
+  justify-content: center
+  align-items: center

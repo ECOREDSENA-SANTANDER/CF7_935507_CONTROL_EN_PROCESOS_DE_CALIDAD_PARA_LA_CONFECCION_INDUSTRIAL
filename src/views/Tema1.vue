@@ -57,7 +57,7 @@
                   img(src="@/assets/curso/temas/t1/cta.svg")
                 .col
                   .row.justify-content-between.align-items-center
-                    .col.col-lg-10.mb-3.mb-sm-0.text-white
+                    .col.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
                       h4.mb-1 Niveles de defectos.
                       p.mb-0 Puede observar la clasificación de defectos en el material complementario. 
                     .col.col-lg-2.mb-3.mb-sm-0
@@ -71,7 +71,7 @@
       h2 1.2 Ubicación del defecto
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-1.col-md-2(data-aos="fade-right")
+      .col-lg-1.col-md-2.col-4.mb-3.mb-md-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/3.svg', alt='')
       .col-lg-11.col-md-10(data-aos="fade-left")
         p.mb-0 Para establecer la causa del defecto, es primordial ubicar el lugar donde se presentó el defecto, de allí la importancia de la trazabilidad en el proceso de confección de las prendas.
@@ -80,7 +80,7 @@
 
     TabsC.color-acento-botones(data-aos="fade")
       .row.justify-content-center.py-4.py-md-5(titulo="Patronaje")        
-        .col-lg-4.col-md-7.col-11.mb-3.mb-lg-0
+        .col-lg-4.col-md-7.col-9.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t1/tabs1-1.png', alt='')
         .col-lg-7.col-11
           p.mb-4 Interpretar de forma incorrecta el diseño y desarrollar con las transformaciones, son deficiencias en las piezas, que causan defectos, en su mayoría pueden ser denominados defectos mayores en las prendas, algunos se pueden observar en la siguiente tabla:
@@ -205,7 +205,7 @@
                           i.fas.fa-circle
                           span.mb-0 Mal amarre se pueden resbalar piezas pequeñas que se pierden y pueden faltar en el momento de confección.
       .row.justify-content-center.py-4.py-md-5(titulo="Confección")        
-        .col-lg-4.col-md-7.col-11.mb-3.mb-lg-0
+        .col-lg-4.col-md-7.col-9.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t1/tabs1-2.png', alt='')
         .col-lg-7.col-11
           p La gran cantidad de mano de obra en este proceso aumenta la variabilidad de la prenda y se requieren altos controles para evitar la presencia de defectos, con el fin de retener las piezas, prendas en proceso o prendas terminadas. Se deben tener en cuenta las áreas de visibilidad de la prenda para clasificar de esta forma los tipos de defectos, por consiguiente, se tiene área visible, menos visible y no visible, en donde a mayor visibilidad se debe considerar el rechazo de la prenda.
@@ -216,7 +216,7 @@
             .anexo__texto
               p.mb-0 #[b Anexo.] Puede observar los niveles de visibilidad para la clasificación de defectos en el material complementario. Niveles de defectos.
       .row.justify-content-center.py-4.py-md-5(titulo="Materia prima e insumos")        
-        .col-lg-4.col-md-7.col-11.mb-3.mb-lg-0
+        .col-lg-4.col-md-7.col-9.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t1/tabs1-3.png', alt='')
         .col-lg-7.col-11
           p.mb-4 En la recepción de materia prima e insumos se pueden detectar los siguientes defectos como se muestra en la tabla:
@@ -282,7 +282,7 @@
       h2 1.3 Uso de tablas militares
 
     .row.justify-content-center.mb-4
-      .col-lg-5.col-md-8.mb-3.mb-lg-0(data-aos="fade-right")
+      .col-lg-5.col-md-8.col-10.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/4.png', alt='')
       .col-lg-7(data-aos="fade-left")
         p Durante la segunda guerra mundial, Dodge y Roaming desarrollaron la técnica de muestreo de aceptación, aplicada a las balas. El plan estándar de muestreo que contiene el procedimiento y las tablas se nombra MIL STD 105D, aunque en el año de 1995 se rediseñó y cambio su nombre a ANSI/ASOCZ1.4, pero se sigue refiriendo a lo mismo. La norma ISO 2859 estandariza los procedimientos de muestreo por aceptación, en las inspecciones por atributos, donde se aplican las tablas militares y por lo tanto los NCA o AQL.
@@ -517,7 +517,7 @@
                   img(src="@/assets/curso/temas/t1/cta.svg")
                 .col
                   .row.justify-content-between.align-items-center
-                    .col.col-lg-10.mb-3.mb-sm-0.text-white
+                    .col.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
                       h4.mb-1 Uso de tablas militares MIL STD 105D.
                       p.mb-0 Para conocer algunos ejemplos del uso de las tablas militares revise en el material complementario. 
                     .col.col-lg-2.mb-3.mb-sm-0
