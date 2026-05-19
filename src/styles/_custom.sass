@@ -113,6 +113,12 @@ figcaption, caption
   background-color: #ECF2FB
 .bg6
   background-color: #D5DCE5
+.bg7
+  background-color: #EEF5FF
+.bg8
+  background-color: #D5D8DE
+.bg9
+  background-color: #EBFFF8
 .bgcolor-1
   background: #141A22
   background-size: cover
@@ -146,6 +152,19 @@ figcaption, caption
     text-align: center
   tr td:first-child
     text-align: start
+.tabla1 
+  tbody
+    tr:nth-child(even)
+      background-color: #F6F6F6
+    th 
+      font-weight: normal
+    tr td:first-child
+      font-weight: bold
+  &.pc1
+    tr td:first-child
+      text-align: center
+.tabl-resp table
+  min-width: 1500px
 .subt
   display: flex
   align-items: center
@@ -168,9 +187,10 @@ figcaption, caption
     height: 95%
     border-radius: 500px
     background-color: $color-acento-contenido
-.indicador-reproceso 
+.indicador 
   display: flex
   align-items: center
+  justify-content: center
   gap: 10px
   width: fit-content  
   .label
