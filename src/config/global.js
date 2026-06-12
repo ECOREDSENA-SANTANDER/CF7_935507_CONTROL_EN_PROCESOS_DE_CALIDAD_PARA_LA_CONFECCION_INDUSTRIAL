@@ -213,7 +213,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
+            'Profesional 06. Responsable Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -227,9 +227,33 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: '--',
-          cargo: 'Experto temático',
-          centro: '--',
+          nombre: 'Rafael Nelftalí Lizcano Reyes',
+          cargo: 'Asesor metodológico y pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Sandra Cecilia Gutiérrez',
+          cargo: 'Experta temática',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Vilma Lucía Perilla Méndez',
+          cargo: ' Diseñadora instruccional',
+          centro: 'Centro de Gestión Empresarial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Oscar Andrés Fernández Urrego',
+          cargo: ' Evaluador instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Cenigraf - Regional Bogotá',
+        },
+        {
+          nombre: 'Julieth Paola Vital López',
+          cargo: 'Corrección de estilo',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
       ],
     },
@@ -246,11 +270,11 @@ export default {
           cargo: 'Desarrolladora <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
-        {
+        /*{
           nombre: '',
           cargo: 'Animadora y productora audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
-        },
+        },*/
       ],
     },
     {
