@@ -25,7 +25,7 @@
       .col-lg-7(data-aos="fade-left")
         p Una vez se desarrolla una referencia, se determinan sus especificaciones. En el proceso de producción estas pueden variar y se deben establecer tolerancias con las cuales se permita un margen y se admitan dichas variaciones.
         .bg1.p-4
-          p.mb-0 Es así como se hacen necesarios los estándares de calidad para poder evaluar los niveles de calidad de una característica cualitativa o cuantitativa a las cuales corresponden tributos o variables respectivamente.
+          p.mb-0 Es así como se hacen necesarios los estándares de calidad para poder evaluar los niveles de calidad de una característica cualitativa o cuantitativa a las cuales corresponden atributos o variables respectivamente.
 
     p.mb-4 En relación con lo anterior, para evaluar la calidad de las prendas se deben establecer niveles de defectos para poder medir el Nivel de Calidad Límite (NCL), teniendo claro todos los defectos que se pueden presentar en una prenda y el nivel del defecto máximo para así decidir si se acepta o se rechaza la muestra o el lote.
 
@@ -58,7 +58,7 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
-                      h4.mb-1 Niveles de defectos.
+                      h4.mb-1 Tipos de defectos según visibilidad en prenda
                       p.mb-0 Puede observar la clasificación de defectos en el material complementario. 
                     .col.col-lg-2.mb-3.mb-sm-0
                       a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_Niveles-de-defectos.pdf')" target="_blank" type="application/pdf")
@@ -223,7 +223,7 @@
           .mb-0
             .titulo-sexto.color-secundario.mb-3
               h5 Tabla 3.
-              span Causas de defectos en patronaje
+              span Causas de defectos en materia prima e insumos
             .tabla-a.color-acento-contenido
               table
                 thead
@@ -285,11 +285,11 @@
       .col-lg-5.col-md-8.col-10.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/4.png', alt='')
       .col-lg-7(data-aos="fade-left")
-        p Durante la segunda guerra mundial, Dodge y Roaming desarrollaron la técnica de muestreo de aceptación, aplicada a las balas. El plan estándar de muestreo que contiene el procedimiento y las tablas se nombra MIL STD 105D, aunque en el año de 1995 se rediseñó y cambio su nombre a ANSI/ASOCZ1.4, pero se sigue refiriendo a lo mismo. La norma ISO 2859 estandariza los procedimientos de muestreo por aceptación, en las inspecciones por atributos, donde se aplican las tablas militares y por lo tanto los NCA o AQL.
+        p Durante la segunda guerra mundial, Dodge y Romig desarrollaron la técnica de muestreo de aceptación, aplicada a las balas. El plan estándar de muestreo que contiene el procedimiento y las tablas se nombra MIL STD 105D, aunque en el año de 1995 se rediseñó y cambió su nombre a ANSI/ASQ Z1.4, pero se sigue refiriendo a lo mismo. La norma ISO 2859 estandariza los procedimientos de muestreo por aceptación, en las inspecciones por atributos, donde se aplican las tablas militares y por lo tanto los NCA o AQL.
         .bg3.p-4
           p.mb-0 Para realizar un plan de muestreo por atributos, simple, doble o múltiple es importante tener en cuenta la cantidad de cada lote, y la clasificación de los defectos, sean menores, mayores y críticos, para establecer el nivel de aceptación de la prenda. Además, se debe definir el nivel de inspección, se utiliza el general que corresponde al normal del tipo II. Los niveles especiales de inspección se utilizan en pruebas de laboratorio destructivas o en productos defectuosos.
 
-    p.mb-4 A continuación se observa la tabla militar estándar.
+    p.mb-4 A continuación se presenta la tabla militar estándar.
 
     .mb-5(data-aos="fade-down")
       .titulo-sexto.color-secundario.mb-3
@@ -448,7 +448,7 @@
               td H
               td K
 
-    p.mb-4 En la tabla siguiente se observa la distribución para los niveles de aceptación AQL.
+    p.mb-4 En la tabla siguiente se presenta la distribución para los niveles de aceptación AQL.
 
     .mb-4(data-aos="fade-down")
       .titulo-sexto.color-secundario.mb-3
@@ -487,13 +487,13 @@
               ul.lista-ul--color.fa-lista.l-circle.color-secundario.mb-0
                 li.mb-1
                   i.fas.fa-circle
-                  span.mb-0 #[b Defectos menores] NCA entre 2,5% a 4%, depende del valor del producto, es decir NCA es alto.
+                  span.mb-0 #[b Defectos menores] NCA entre 2,5 % a 4 %, depende del valor del producto, es decir NCA es alto.
                 li.mb-1
                   i.fas.fa-circle
-                  span.mb-0 #[b Defectos mayores] NCA entre 1,5% a 2,5%, término medio de NCA.
+                  span.mb-0 #[b Defectos mayores] NCA entre 1,5 % a 2,5 %, término medio de NCA.
                 li.mb-0
                   i.fas.fa-circle
-                  span.mb-0 #[b Defectos críticos] NCA entre 0% a 0,65%, bajo NCA.
+                  span.mb-0 #[b Defectos críticos] NCA entre 0 % a 0,65 %, bajo NCA.
           .row(numero="5" titulo="Paso 5") 
             .col-12
               p Una vez ubicado en columna el nivel de aceptación se cruza con el tamaño de la muestra, donde se concluye el número de las unidades con las que el lote es aceptado o rechazado.
@@ -518,7 +518,7 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
-                      h4.mb-1 Uso de tablas militares MIL STD 105D.
+                      h4.mb-1 Uso de tablas militares MIL STD 105D
                       p.mb-0 Para conocer algunos ejemplos del uso de las tablas militares revise en el material complementario. 
                     .col.col-lg-2.mb-3.mb-sm-0
                       a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_Uso-de-tablas-militares-MIL-STD-105D.pdf')" target="_blank" type="application/pdf")

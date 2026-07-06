@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Clasificación de defectos e informes de calidad',
     Description:
-      'Comprender la clasificación de defectos, tablas militares, informes de calidad, indicadores de calidad, técnicas de calidad, 7 herramientas de calidad, histograma, Pareto, diagrama causa efectos, estratificación, diagrama de correlación, diagrama de control, acciones de calidad. Identificar los indicadores de calidad, realizar cálculo de indicadores. Realizar plan de muestreo por aceptación, usando tablas militares. Comprender procedimiento de herramientas básicas de control de calidad. Desarrollar hojas de verificación, diagrama de Pareto, Histograma, dispersión, causa-efectos, estratificación y de control. Análisis de resultados, Desarrollar planes de calidad. Desarrollar acciones correctivas y de mejora.',
+      'En este componente formativo se abordará la clasificación de defectos y la elaboración de informes de calidad como herramientas fundamentales para analizar los resultados de las inspecciones en procesos de confección. A partir del uso de indicadores, planes de muestreo por aceptación, tablas militares y herramientas básicas de control de calidad, se fortalecerá la toma de decisiones orientada a la corrección, mejora y control de la calidad en la producción de prendas.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -121,17 +121,17 @@ export default {
     {
       termino: 'AOQ=CPS',
       significado:
-        'Calidad Promedio de Salida. Es la calidad promedio que se obtiene después del proceso de inspección.',
+        ' Calidad Promedio de Salida. Es la calidad promedio que se obtiene después del proceso de inspección.',
     },
     {
       termino: 'AOQL=LCPS',
       significado:
-        'Límite de Calidad Promedio de Salida. Resultado de la peor calidad promedio que puede obtenerse en el proceso de la inspección.',
+        ' Límite de Calidad Promedio de Salida. Resultado de la peor calidad promedio que puede obtenerse en el proceso de la inspección.',
     },
     {
       termino: 'AQL=NCA',
       significado:
-        'siglas de las palabras en inglés de Level Aceptation Quality, nivel de calidad aceptable, es el porcentaje máximo de unidades aceptable para el proceso, el cual debe estar especificado en la ficha técnica, contrato, órdenes de compra',
+        ' Siglas de las palabras en inglés de <em>Level Aceptation Quality</em>, nivel de calidad aceptable, es el porcentaje máximo de unidades aceptable para el proceso, el cual debe estar especificado en la ficha técnica, contrato, órdenes de compra',
     },
     {
       termino: 'Causas asignables',
@@ -144,9 +144,9 @@ export default {
         'no cumplimiento de los requisitos de la prenda, desviaciones de los estándares de calidad de la prenda.',
     },
     {
-      termino: 'LTPD =NCL',
+      termino: 'LTPD=NCL',
       significado:
-        'traducción de las palabras de las siglas en ingles Lot Tolerance Proportion Defective, proporción defectuosa tolerable en el lote, es el peor nivel de calidad del lote que el cliente puede aceptar. También conocido como el Nivel de Calidad Límite. Nivel de calidad no satisfactorio, por lo tanto, debe ser rechazado el lote.',
+        'traducción de las palabras de las siglas en ingles <em>Lot Tolerance Proportion Defective</em>, proporción defectuosa tolerable en el lote, es el peor nivel de calidad del lote que el cliente puede aceptar. También conocido como el Nivel de Calidad Límite. Nivel de calidad no satisfactorio, por lo tanto, debe ser rechazado el lote.',
     },
     {
       termino: 'Rango',
@@ -162,8 +162,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Brand Arroyave, C. (2008). Control de calidad para medianas y pequeñas empresas. Itagüí. [s.n.]. Editor: Universidad Jaume I. (2006). Manual de control estadístico de calidad: teoría y aplicaciones [E-book].',
-      link: '',
+        'Brand Arroyave, C. (2008). Control de calidad para medianas y pequeñas empresas.			',
     },
     {
       referencia:
@@ -177,33 +176,27 @@ export default {
     },
     {
       referencia:
-        'Jaramillo Zapata, J. (1990). Control de calidad en la confección [E-book]. Servicio Nacional de Aprendizaje (SENA).',
-      link: '',
+        'Jaramillo Zapata, J. (1990). Control de calidad en la confección. Servicio Nacional de Aprendizaje.			',
     },
     {
       referencia:
-        'Martínez Aguirre, G. (2012). La ingeniería en la industria de la confección. México. Editorial Trillas.',
-      link: '',
+        'Martínez Aguirre, G. (2012). La ingeniería en la industria de la confección. Editorial Trillas.			',
     },
     {
       referencia:
-        'Pérez Marqués, M. (2016). Control de calidad técnicas y herramientas (1st ed.). México. Alfaomega grupo editor.',
-      link: '',
+        'Pérez Marqués, M. (2016). Control de calidad: Técnicas y herramientas (1.ª ed.). Alfaomega Grupo Editor.			',
     },
     {
       referencia:
-        'Pola Maceda, Á. (2009). Aplicación de la estadística al control de calidad. Marcombo.',
-      link: '',
+        'Pola Maceda, Á. (2009). Aplicación de la estadística al control de calidad. Marcombo.			',
     },
     {
       referencia:
-        'Servicio Nacional de Aprendizaje (SENA). (1973). Programa de control de calidad. Unidad 1.5. Variabilidad de la calidad [E-book].',
-      link: '',
+        'Servicio Nacional de Aprendizaje. (1973). Programa de control de calidad. Unidad 1.5. Variabilidad de la calidad.			',
     },
     {
       referencia:
-        'Villamizar Figueroa, J. (1992). Técnicas básicas para el análisis de datos [E-book]. Servicio Nacional de Aprendizaje (SENA).',
-      link: '',
+        'Villamizar Figueroa, J. (1992). Técnicas básicas para el análisis de datos. Servicio Nacional de Aprendizaje.			',
     },
   ],
   creditos: [
@@ -281,12 +274,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: '',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: '',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

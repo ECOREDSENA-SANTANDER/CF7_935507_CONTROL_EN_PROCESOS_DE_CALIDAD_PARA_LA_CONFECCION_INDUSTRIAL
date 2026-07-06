@@ -175,7 +175,7 @@
       img(src='@/assets/curso/temas/t2/subt.svg', alt='')
       h3.mb-0 Hoja de verificación o chequeo
 
-    p Es una herramienta donde se registran los datos de manera organizada, para realizar los análisis correspondientes de calidad, se realiza con el fin de recolectar y utilizar los datos para posteriores análisis, reducir los riesgos asociaos a la toma de decisiones y acelerar la detección y resolución de problemas, además de apoyar otras herramientas estadísticas de calidad.
+    p Es una herramienta donde se registran los datos de manera organizada, para realizar los análisis correspondientes de calidad, se realiza con el fin de recolectar y utilizar los datos para posteriores análisis, reducir los riesgos asociados a la toma de decisiones y acelerar la detección y resolución de problemas, además de apoyar otras herramientas estadísticas de calidad.
 
     .row.justify-content-center.mb-4
       .col-lg-7
@@ -204,7 +204,7 @@
         img(src='@/assets/curso/temas/t2/7.png', alt='')
 
     p Se conocen con anterioridad las hojas de inspección de producto en proceso, inspección de producto terminado, inspección de trazo y corte, las cuales recopilan información en los procesos relacionados de los defectos presentados, pero se pueden crear otras, según las necesidades de cada proceso y las directrices de la empresa.
-    p.mb-4 Ejemplo. En la siguiente tabla se observa una hoja de verificación diligenciada para una inspección de producto terminado.
+    p.mb-4 Ejemplo. En la siguiente tabla se presenta una hoja de verificación diligenciada para una inspección de producto terminado.
 
     .mb-4
       .titulo-sexto.color-secundario.mb-3
@@ -394,10 +394,10 @@
       .col-lg-5.col-md-9.col-10.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t2/8.png', alt='')
       .col-lg-7(data-aos="fade-left")
-        p Con el uso del histograma se pueden representar los datos, visualizando su dispersión con respecto a la media. Se utiliza con el fin de mostrar la variabilidad de los datos y analizar el comportamiento del proceso. Pertenece a la fase medir de seis sigma.
+        p Con el uso del histograma se pueden representar los datos, visualizando su dispersión con respecto a la media. Se utiliza con el fin de mostrar la variabilidad de los datos y analizar el comportamiento del proceso. Pertenece a la fase medir de #[em Six Sigma].
         p Esta es una gráfica que permite analizar la distribución de la información o datos de un proceso en contraste con el número de ocurrencias de cada valor, la finalidad es diagnosticar rápidamente la panorámica del comportamiento de un proceso a través del tiempo, además permite ver la variación de los datos y analizar el comportamiento de un proceso.
 
-    h5.mb-4 El procedimiento para realizar un histograma es el siguiente:
+    p.mb-4 El procedimiento para realizar un histograma es el siguiente:
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
@@ -414,16 +414,16 @@
               tr
                 td.fw-bold 1 
                 td Para construir tabla de distribución de frecuencias se inicia calculando: 
-                  p.mb-0 Rango=R= XM (dato mayor valor)-Xm (dato menor valor)
+                  p.mb-0 Rango=R= XM (dato mayor valor)-Xm (dato menor valor).
               tr
                 td.fw-bold 2 
                 td Determinar número de clases para agrupar datos = K
-                  p.mb-0 K=√N
+                  p.mb-0 K=√N.
                   p.mb-0 Redondear según se considere mejor.
               tr
                 td.fw-bold 3 
                 td Determinar amplitud o intervalo de clase = A
-                  p.mb-0 A= R/K
+                  p.mb-0 A= R/K.
                   p.mb-0 Se redondea a la cifra superior.
               tr
                 td.fw-bold 4 
@@ -436,7 +436,7 @@
               tr
                 td.fw-bold 5 
                 td Calcular punto medio de cada clase o llamado marca de clases= Xi
-                  p.mb-0 Xi= Ls - Li/ 2
+                  p.mb-0 Xi= Ls - Li/ 2.
               tr
                 td.fw-bold 6
                 td Construir tabla de frecuencias.
@@ -486,7 +486,7 @@
       .col-lg-7(data-aos="fade-right")
         p También llamado de espina de pescado por su forma, creado por Kaoru Ishikawa como herramienta en los círculos de calidad. Se utiliza para representar gráficamente los factores que afectan un problema de calidad; se definen las principales causas y luego las causas derivadas de las principales, consiste en una flecha horizontal apuntando hacia el problema y las seis principales flechas en diagonal a 30°, orientadas hacia la flecha horizontal, de cada flecha se van creando a medida que se va analizando nuevas flechas, que corresponden a causas secundarias.
         .bg8.p-4
-          p.mb-0 Esta herramienta hace parte de la fase definir de Seis sigma, uno de sus objetivos es representar gráficamente las causas y efectos de un problema par ayudar al equipo de trabajo a analizarlas y eliminarlas.
+          p.mb-0 Esta herramienta hace parte de la fase definir de #[em Six Sigma], uno de sus objetivos es representar gráficamente las causas y efectos de un problema para ayudar al equipo de trabajo a analizarlas y eliminarlas.
       .col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t2/9.png', alt='')
 
@@ -509,7 +509,7 @@
                 td Definir el problema o efecto en la cabeza de la gráfica (extremo derecho)
               tr
                 td.fw-bold 2
-                td Agrupar las causas según las 6 M: Materiales, Métodos, Maquinaria, Mantenimiento, Medio ambiente, Mano de obra. Se colocan en extremo de las flechas a 300.
+                td Agrupar las causas según las 6 M: Materiales, Métodos, Maquinaria, Mantenimiento, Medio ambiente, Mano de obra. Se colocan en extremo de las flechas a 30 grados.
               tr
                 td.fw-bold 3
                 td Desglosar de las causas principales otros niveles, los cuales se añaden a la flecha relacionada.
@@ -536,11 +536,11 @@
       .col-lg-5.col-md-8.col-10.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t2/10.png', alt='')
       .col-lg-7(data-aos="fade-left")
-        p Su nombre deriva del apellido del economista italiano, quien formuló su principio, que consiste en determinar que muy pocas causas son las responsables del 80% del total de los defectos, y muchas causas secundarias son responsables del 20% del total de los defectos, por consiguiente, se habla de pocos vitales que constituyen la parte más grande, el porcentaje de contribución más alto con respecto al total y muchos triviales son factores numerosos pero contribuyen solo con una pequeña parte o con un bajo porcentaje respecto al total.
-        p Para visualizar lo anterior mencionado se desarrolla un gráfico de barras para representar de manera ordenada los pocos vitales (80%) y los muchos triviales (20%).
-        p El objetivo del diagrama es poder visualizar los problemas o defectos que inciden más, con el fin de priorizar las causas para su atención, teniendo en cuenta dicha clasificación. Hace parte de la fase análisis de seis sigma.
+        p Su nombre deriva del apellido del economista italiano, quien formuló su principio, que consiste en determinar que muy pocas causas son las responsables del 80 % del total de los defectos, y muchas causas secundarias son responsables del 20 % del total de los defectos, por consiguiente, se habla de pocos vitales que constituyen la parte más grande, el porcentaje de contribución más alto con respecto al total y muchos triviales son factores numerosos pero contribuyen solo con una pequeña parte o con un bajo porcentaje respecto al total.
+        p Para visualizar lo anterior mencionado se desarrolla un gráfico de barras para representar de manera ordenada los pocos vitales (80 %) y los muchos triviales (20 %).
+        p El objetivo del diagrama es poder visualizar los problemas o defectos que inciden más, con el fin de priorizar las causas para su atención, teniendo en cuenta dicha clasificación. Hace parte de la fase análisis de #[em Six Sigma].
 
-    h5.mb-4 El procedimiento para realizar diagrama de Pareto se observa en la siguiente tabla:
+    p.mb-4 El procedimiento para realizar diagrama de Pareto se presenta en la siguiente tabla:
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-8
@@ -590,9 +590,9 @@
                 td Construir un diagrama de barras colocando el porcentaje con las barras ordenadas, representando cada factor según su frecuencia, además se va representando los porcentajes acumulados.
               tr
                 td.fw-bold 8
-                td Analizar los datos diferenciando el 80% de los pocos vitales los cuales son más importantes para establecer planes de mejora.
+                td Analizar los datos diferenciando el 80 % de los pocos vitales los cuales son más importantes para establecer planes de mejora.
 
-    p.mb-4 La herramienta es automatizada en los programas especiales de análisis de datos. En el siguiente gráfico se observa un diagrama de Pareto diligenciado para las causas defectos de calidad en tapabocas.
+    p.mb-4 La herramienta es automatizada en los programas especiales de análisis de datos. En el siguiente gráfico se presenta un diagrama de Pareto diligenciado para las causas defectos de calidad en tapabocas.
 
     .mb-5(data-aos='fade-down')
       .titulo-sexto.color-secundario.mb-3
@@ -633,7 +633,7 @@
         .bg3.p-4.py-xl-5
           p.mb-0 Sirve de base para la construcción de histogramas y diagramas de Pareto. Es útil para identificar causas en variación de los datos, las causas de los problemas y poder analizar los valores promedio en comparación con los valores en cada categoría o estrato.
 
-    h5.mb-4 El procedimiento para realizar los gráficos se puede ver en la siguiente tabla:
+    p.mb-4 El procedimiento para realizar los gráficos se puede ver en la siguiente tabla:
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
@@ -715,7 +715,7 @@
       .col-lg-9(data-aos="fade-right")
         p Llamado también de dispersión, investiga si existe relación entre dos características de calidad de un proceso. La característica de la abscisa que corresponde al eje en X representa la característica que se interpreta como causa, y la característica de las ordenadas, es decir en el eje Y corresponde a la variable interpretado como efecto.
         p Es útil en las características cuya relación se compruebe con este gráfico, debido que al controlar una, por consiguiente, se controla la otra característica.
-        p Hace parte de la fase analizar y mejorar de la herramienta Seis sigma y permite observar la relación entre dos variables y la intensidad de la relación, así como facilita el reconocimiento de correlaciones.
+        p Hace parte de la fase analizar y mejorar de la herramienta #[em Six Sigma] y permite observar la relación entre dos variables y la intensidad de la relación, así como facilita el reconocimiento de correlaciones.
       .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t2/12.svg', alt='')
 
@@ -754,7 +754,7 @@
                     h4.bg-color-primario.w-fit.m-auto.text-white.text-center.mb-3.py-1.px-4 Sin correlación
                     p.text-center No existe relación alguna entre las características.
 
-    p.mb-4 El procedimiento para realizar el diagrama se observa en la siguiente tabla:
+    p.mb-4 El procedimiento para realizar el diagrama se presenta en la siguiente tabla:
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
@@ -820,7 +820,7 @@
       .col-lg-1.col-md-2.col-4.mb-3.mb-md-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t2/14.png', alt='')
       .col-lg-11.col-md-10(data-aos="fade-left")
-        p.mb-0 Esta herramienta representa de manera organizada en el tiempo, datos que corresponden a los resultados de una característica de calidad en un periodo de tiempo. Con el fin de visualizar el comportamiento de la característica a medir del proceso, entre los límites de control establecidos para realizar seguimiento. Pertenece a la fase analizar y controlar de la herramienta seis sigma.
+        p.mb-0 Esta herramienta representa de manera organizada en el tiempo, datos que corresponden a los resultados de una característica de calidad en un periodo de tiempo. Con el fin de visualizar el comportamiento de la característica a medir del proceso, entre los límites de control establecidos para realizar seguimiento. Pertenece a la fase analizar y controlar de la herramienta #[em Six Sigma].
 
     p.mb-4 El gráfico comprende el eje X que corresponde al tiempo, el eje Y representa la característica medible. Además, contiene 3 líneas horizontales las cuales corresponde a:
 
@@ -851,7 +851,7 @@
       .col-lg-5.d-none.d-lg-block(data-aos="fade-right")
         img(src='@/assets/curso/temas/t2/15.png', alt='')
       .col-lg-7(data-aos="fade-left")
-        p El espacio entre los límites marca el intervalo dentro del cual se espera que desarrolle el proceso evaluado. los datos resultantes de la medición del desempeño observado del proceso en determinados periodos de tiempo se marcan con puntos y se unen en el gráfico, para realizar el análisis.
+        p El espacio entre los límites marca el intervalo dentro del cual se espera que desarrolle el proceso evaluado. Los datos resultantes de la medición del desempeño observado del proceso en determinados periodos de tiempo se marcan con puntos y se unen en el gráfico, para realizar el análisis.
         p Además de visualizar el comportamiento del proceso en el tiempo la herramienta permite determinar el estado de control de un proceso, determinar las muestras que caen dentro o fuera de los límites de control, determinar las trayectorias anormales en un proceso estandarizado y ajustar el proceso.
 
     p.mb-4 Se pueden desarrollar gráficos de control por variables o atributos, los cuales son:
@@ -902,12 +902,12 @@
                   span.mb-0 Gráficos de número de defectos por unidad: u
     
     p Los gráficos utilizados comúnmente son de medias y de rango de manera simultánea o los gráficos de medias y desviación estándar.
-    p.mb-4 El procedimiento para realizar gráficos de control se observe en la siguiente tabla:
+    p.mb-4 El procedimiento para realizar gráficos de control se presenta en la siguiente tabla:
 
     .mb-5(data-aos="fade-down")
       .titulo-sexto.color-secundario.mb-3
         h5 Tabla 12. 
-        span Diagrama de correlación
+        span Gráficos de control
       .tabla-a.tabla1.pc1.color-acento-contenido
         table
           thead
@@ -948,26 +948,26 @@
                 ul.lista-ul--color.l-circle.fa-lista
                   li.mb-0
                     i.fas.fa-circle
-                    span.mb-0 LCI= X (promedio de medias) - A2(constante según tablas) R(promedio de rangos)
+                    span.mb-0 LCI= X (promedio de medias) - A2(constante según tablas) R(promedio de rangos).
                   li.mb-0
                     i.fas.fa-circle
-                    span.mb-0 LCI= X (promedio de medias) + A2(constante según tablas) R(promedio de rangos)
+                    span.mb-0 LCI= X (promedio de medias) + A2(constante según tablas) R(promedio de rangos).
                 p Para grafico de rangos:
                 ul.lista-ul--color.l-circle.fa-lista
                   li.mb-0
                     i.fas.fa-circle
-                    span.mb-0 LCI= D3(constante según tablas) R(promedio de rangos)
+                    span.mb-0 LCI= D3(constante según tablas) R(promedio de rangos).
                   li.mb-0
                     i.fas.fa-circle
-                    span.mb-0 LCS= D4(constante según tablas) R(promedio de rangos)
+                    span.mb-0 LCS= D4(constante según tablas) R(promedio de rangos).
                 p Para gráfico de desviación estándar:
                 ul.lista-ul--color.l-circle.fa-lista.mb-0
                   li.mb-0
                     i.fas.fa-circle
-                    span.mb-0 LCI= B5(constante según tablas) R(promedio de desviaciones)
+                    span.mb-0 LCI= B5(constante según tablas) R(promedio de desviaciones).
                   li.mb-0
                     i.fas.fa-circle
-                    span.mb-0 LCS= B6(constante según tablas) R(promedio de desviaciones)
+                    span.mb-0 LCS= B6(constante según tablas) R(promedio de desviaciones).
             tr
               td.fw-bold 10
               td Construir el gráfico, escoger escala, eje X y eje Y.
@@ -982,7 +982,7 @@
               td Analizar gráfico, si los puntos fuera de control se deben a causas asignables o especiales.
             tr
               td.fw-bold 14
-              td Definir acciones si el proceso se encuentra fuere de control.
+              td Definir acciones si el proceso se encuentra fuera de control.
 
     p Estos gráficos se pueden realizar en el programa de office Excel.
     p.mb-4 En las siguientes imágenes podrá observar gráficos de control de medias, rangos y desviación estándar, diligenciados para la cantidad de defectos en las referencias.       
