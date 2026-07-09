@@ -506,7 +506,7 @@
             tbody
               tr
                 td.fw-bold 1
-                td Definir el problema o efecto en la cabeza de la gráfica (extremo derecho)
+                td Definir el problema o efecto en la cabeza de la gráfica (extremo derecho).
               tr
                 td.fw-bold 2
                 td Agrupar las causas según las 6 M: Materiales, Métodos, Maquinaria, Mantenimiento, Medio ambiente, Mano de obra. Se colocan en extremo de las flechas a 30 grados.
@@ -575,16 +575,16 @@
                   ul.lista-ul--color.l-circle.fa-lista.mb-0
                     li.mb-0
                       i.fas.fa-circle
-                      span.mb-0 #[b 1 Columna:] Organizar los factores de mayor a menor frecuencia.
+                      span.mb-0 #[b 1 columna:] organizar los factores de mayor a menor frecuencia.
                     li.mb-0
                       i.fas.fa-circle
-                      span.mb-0 #[b 2 Columna:] Colocar las frecuencias o valor de cada factor.
+                      span.mb-0 #[b 2 columna:] colocar las frecuencias o valor de cada factor.
                     li.mb-0
                       i.fas.fa-circle
-                      span.mb-0 #[b 3 Columna:] Calcular porcentaje de cada valor con respecto al total.
+                      span.mb-0 #[b 3 columna:] calcular porcentaje de cada valor con respecto al total.
                     li.mb-0
                       i.fas.fa-circle
-                      span.mb-0 #[b 4 Columna:] Calcular porcentajes acumulados, sumando los valores de las anteriores casillas.
+                      span.mb-0 #[b 4 columna:] calcular porcentajes acumulados, sumando los valores de las anteriores casillas.
               tr
                 td.fw-bold 7
                 td Construir un diagrama de barras colocando el porcentaje con las barras ordenadas, representando cada factor según su frecuencia, además se va representando los porcentajes acumulados.
@@ -633,7 +633,7 @@
         .bg3.p-4.py-xl-5
           p.mb-0 Sirve de base para la construcción de histogramas y diagramas de Pareto. Es útil para identificar causas en variación de los datos, las causas de los problemas y poder analizar los valores promedio en comparación con los valores en cada categoría o estrato.
 
-    p.mb-4 El procedimiento para realizar los gráficos se puede ver en la siguiente tabla:
+    p.mb-4 El procedimiento para realizar los gráficos se detalla en la siguiente tabla:
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
@@ -831,21 +831,21 @@
             .col-lg-3.col-md-4.col-4
               img.px-xl-1(src='@/assets/curso/temas/t2/tarj4-1.svg', alt='')
             .col-lg-9.col-md-8.col-8
-              p.mb-0 #[b LC:] Línea central, es el promedio del proceso.
+              p.mb-0 #[b LC:] Línea Central, es el promedio del proceso.
       .col-lg-4.col-md-6.mb-3.mb-lg-0
         .bg2.tarjeta.p-4
           .row.justify-content-center.align-items-center
             .col-lg-3.col-md-4.col-4
               img.px-xl-1(src='@/assets/curso/temas/t2/tarj4-2.svg', alt='')
             .col-lg-9.col-md-8.col-8
-              p.mb-0 #[b LCS:] Límite de control superior.
+              p.mb-0 #[b LCS:] Límite de Control Superior.
       .col-lg-4.col-md-6.mb-3.mb-lg-0
         .bg2.tarjeta.p-4
           .row.justify-content-center.align-items-center
             .col-lg-3.col-md-4.col-4
               img.px-xl-1(src='@/assets/curso/temas/t2/tarj4-3.svg', alt='')
             .col-lg-9.col-md-8.col-8
-              p.mb-0 #[b LCI:] Límite de control inferior.
+              p.mb-0 #[b LCI:] Límite de Control Inferior.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.d-none.d-lg-block(data-aos="fade-right")
@@ -868,19 +868,19 @@
               ul.lista-ul.fa-lista.list-ico.mb-0
                 li.mb-0
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Gráfico de medias: X
+                  span.mb-0 Gráfico de medias: X.
                 li.mb-0
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Gráfico de rangos: R
+                  span.mb-0 Gráfico de rangos: R.
                 li.mb-0
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Gráficos de desviación estándar: S
+                  span.mb-0 Gráficos de desviación estándar: S.
                 li.mb-0
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Gráfico de medianas
+                  span.mb-0 Gráfico de medianas.
                 li.mb-0
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Gráfico individual X
+                  span.mb-0 Gráfico individual X.
           .col-md.tarjeta.bg4.p-4
             .row.justify-content-center.mb-4
               .col-4.col-md-6.col-lg-3
@@ -890,16 +890,16 @@
               ul.lista-ul.fa-lista.list-ico.mb-0
                 li.mb-0
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0  Gráfico de la proporción de unidades defectuosas: p
+                  span.mb-0  Gráfico de la proporción de unidades defectuosas: p.
                 li.mb-0
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Gráfico de número de unidades defectuosas: np
+                  span.mb-0 Gráfico de número de unidades defectuosas: np.
                 li.mb-0
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Gráficos de número de defectos: c
+                  span.mb-0 Gráficos de número de defectos: c.
                 li.mb-0
                   img(src='@/assets/curso/temas/t2/ico-list.svg')
-                  span.mb-0 Gráficos de número de defectos por unidad: u
+                  span.mb-0 Gráficos de número de defectos por unidad: u.
     
     p Los gráficos utilizados comúnmente son de medias y de rango de manera simultánea o los gráficos de medias y desviación estándar.
     p.mb-4 El procedimiento para realizar gráficos de control se presenta en la siguiente tabla:
@@ -985,7 +985,7 @@
               td Definir acciones si el proceso se encuentra fuera de control.
 
     p Estos gráficos se pueden realizar en el programa de office Excel.
-    p.mb-4 En las siguientes imágenes podrá observar gráficos de control de medias, rangos y desviación estándar, diligenciados para la cantidad de defectos en las referencias.       
+    p.mb-4 En las siguientes imágenes podrá detallar gráficos de control de medias, rangos y desviación estándar, diligenciados para la cantidad de defectos en las referencias.       
 
     .row.justify-content-center.align-items-center.mb-4(data-aos='fade-down')
       .col-lg-10

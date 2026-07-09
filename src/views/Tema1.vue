@@ -252,7 +252,7 @@
                           ul.lista-ul--color.l-circle.fa-lista.mb-0
                             li.mb-0
                               i.fas.fa-circle
-                              span.mb-0 Neps.
+                              span.mb-0 #[em Neps.]
                             li.mb-0
                               i.fas.fa-circle
                               span.mb-0 Fibras de otro color.
@@ -285,11 +285,11 @@
       .col-lg-5.col-md-8.col-10.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/4.png', alt='')
       .col-lg-7(data-aos="fade-left")
-        p Durante la segunda guerra mundial, Dodge y Romig desarrollaron la técnica de muestreo de aceptación, aplicada a las balas. El plan estándar de muestreo que contiene el procedimiento y las tablas se nombra MIL STD 105D, aunque en el año de 1995 se rediseñó y cambió su nombre a ANSI/ASQ Z1.4, pero se sigue refiriendo a lo mismo. La norma ISO 2859 estandariza los procedimientos de muestreo por aceptación, en las inspecciones por atributos, donde se aplican las tablas militares y por lo tanto los NCA o AQL.
+        p Durante la Segunda Guerra Mundial, Dodge y Romig desarrollaron la técnica de muestreo de aceptación, aplicada a las balas. El plan estándar de muestreo que contiene el procedimiento y las tablas se nombra MIL STD 105D, aunque en el año de 1995 se rediseñó y cambió su nombre a ANSI/ASQ Z1.4, pero se sigue refiriendo a lo mismo. La norma ISO 2859 estandariza los procedimientos de muestreo por aceptación, en las inspecciones por atributos, donde se aplican las tablas militares y por lo tanto los NCA o AQL.
         .bg3.p-4
           p.mb-0 Para realizar un plan de muestreo por atributos, simple, doble o múltiple es importante tener en cuenta la cantidad de cada lote, y la clasificación de los defectos, sean menores, mayores y críticos, para establecer el nivel de aceptación de la prenda. Además, se debe definir el nivel de inspección, se utiliza el general que corresponde al normal del tipo II. Los niveles especiales de inspección se utilizan en pruebas de laboratorio destructivas o en productos defectuosos.
 
-    p.mb-4 A continuación se presenta la tabla militar estándar.
+    p.mb-4 A continuación, se presenta la tabla militar estándar.
 
     .mb-5(data-aos="fade-down")
       .titulo-sexto.color-secundario.mb-3
@@ -457,7 +457,7 @@
       figure
         img(src='@/assets/curso/temas/t1/tabla5.svg', alt='')
 
-    p.mb-4 A continuación se mencionan los pasos necesarios para el uso de tablas militares para realizar un plan estándar de muestreo, de acuerdo con lo indicado en la norma ISO 2859.
+    p.mb-4 A continuación, se mencionan los pasos necesarios para el uso de tablas militares para realizar un plan estándar de muestreo, de acuerdo con lo indicado en la norma ISO 2859.
 
     .row.justify-content-center.mb-5
       .col-lg-7(data-aos="fade-right")
@@ -471,16 +471,16 @@
               ul.lista-ul--color.fa-lista.l-circle.color-secundario.mb-0
                 li.mb-1
                   i.fas.fa-circle
-                  span.mb-0 #[b I:] Reducida o baja, es permisiva, tamaño de muestra pequeña.
+                  span.mb-0 #[b I:] reducida o baja, es permisiva, tamaño de muestra pequeña.
                 li.mb-1
                   i.fas.fa-circle
-                  span.mb-0 #[b II:] Normal o general, tamaño de muestras es mayor.
+                  span.mb-0 #[b II:] normal o general, tamaño de muestras es mayor.
                 li.mb-0
                   i.fas.fa-circle
-                  span.mb-0 #[b III:] Rigorosa, estricta o severa, tamaño de muestra es más grande.
+                  span.mb-0 #[b III:] rigurosa, estricta o severa, tamaño de muestra es más grande.
           .row(numero="3" titulo="Paso 3") 
            .col-12
-              p Teniendo la letra resultado del cruce de tamaño de lote y nivel de inspección, que corresponde a un código, se procede en tabla #2 a seleccionar columna de tamaño de muestra según columna de código.
+              p Teniendo la letra resultado del cruce de tamaño de lote y nivel de inspección, que corresponde a un código, se procede en tabla # 2 a seleccionar columna de tamaño de muestra según columna de código.
           .row(numero="4" titulo="Paso 4") 
             .col-12
               p Teniendo los niveles de aceptación de los defectos, en donde conviene establecer:
