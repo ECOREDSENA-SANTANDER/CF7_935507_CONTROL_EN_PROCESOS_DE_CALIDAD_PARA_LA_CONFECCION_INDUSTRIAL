@@ -65,7 +65,7 @@
       .col-lg-2.d-none.d-lg-block(data-aos="fade-right")
         img(src='@/assets/curso/temas/t2/3.svg', alt='')
       .col-lg-10(data-aos="fade-left")
-        p En alusión de la frase del físico Kelvin, “Lo que no se mide no se controla, lo que no se controla no se mejora, y lo que no se mejora, tiende a desaparecer”, los indicadores son indispensables para determinar el seguimiento de las metas y objetivos propuestos, con miras a la satisfacción del cliente, porque permiten medir de manera tangible y cuantificable, los resultados de calidad de los procesos, permitiendo su evaluación, por lo tanto muestra los niveles de cumplimiento de los requisitos de calidad. Con lo anterior se concluye que un indicador es un valor, resultado de una operación matemática donde se comparan dos o más características de calidad, cuyo valor se analiza para la toma de decisiones.
+        p En alusión de la frase del físico Kelvin, “Lo que no se mide no se controla, lo que no se controla no se mejora, y lo que no se mejora, tiende a desaparecer”, los indicadores son indispensables para determinar el seguimiento de las metas y objetivos propuestos, con miras a la satisfacción del cliente, porque permiten medir de manera tangible y cuantificable, los resultados de calidad de los procesos, permitiendo su evaluación, por lo tanto presenta los niveles de cumplimiento de los requisitos de calidad. Con lo anterior se concluye que un indicador es un valor, resultado de una operación matemática donde se comparan dos o más características de calidad, cuyo valor se analiza para la toma de decisiones.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-7(data-aos="fade-right")
@@ -208,7 +208,7 @@
 
     .mb-4
       .titulo-sexto.color-secundario.mb-3
-        h5 Tabla 6. 
+        h5 Tabla 5. 
         span Control de calidad en puestos de revisión de producto terminado
       .tabla-a.tabla1.tabl-resp.color-acento-contenido
         table
@@ -402,7 +402,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
-          h5 Tabla 7. 
+          h5 Tabla 6. 
           span Histograma
         .tabla-a.tabla1.pc1.color-secundario
           table
@@ -448,12 +448,12 @@
                 td.fw-bold 8 
                 td Analizar los datos para realizar acciones.
 
-    p.mb-4 En el siguiente gráfico podrá observar un histograma diligenciado para la cantidad de defectos en rollos de tela.
+    p.mb-4 En el siguiente gráfico podrá consultar un histograma diligenciado para la cantidad de defectos en rollos de tela.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos='fade-down')
       .col-lg-10
         .titulo-sexto.color-secundario.mb-3
-          h5 Figura 1. 
+          h5 Figura 2. 
           span Histograma
         .bg7.p-4.p-lg-5
           figure
@@ -495,7 +495,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
-          h5 Tabla 8. 
+          h5 Tabla 7. 
           span Diagrama causa-efecto
         .tabla-a.tabla1.pc1.color-secundario
           table
@@ -518,11 +518,11 @@
                 td Analizar las causas.
 
     p La herramienta es automatizada en los programas especiales de análisis de datos.
-    p.mb-4 En el siguiente gráfico podrá observar un diagrama de causa efecto diligenciado para las causas defectos de calidad en las camisetas tipo polo.
+    p.mb-4 En el siguiente gráfico podrá consultar un diagrama de causa efecto diligenciado para las causas defectos de calidad en las camisetas tipo polo.
 
     .mb-5(data-aos='fade-down')
       .titulo-sexto.color-secundario.mb-3
-        h5 Figura 2. 
+        h5 Figura 3. 
         span Diagrama de causa efecto
       .bg9
         figure
@@ -545,7 +545,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
-          h5 Tabla 9. 
+          h5 Tabla 8. 
           span Diagrama de Pareto
         .tabla-a.tabla1.pc1.color-secundario
           table
@@ -596,7 +596,7 @@
 
     .mb-5(data-aos='fade-down')
       .titulo-sexto.color-secundario.mb-3
-        h5 Figura 3. 
+        h5 Figura 4. 
         span Diagrama de Pareto
       .bg9.p-4.p-xl-5
         figure
@@ -638,7 +638,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
-          h5 Tabla 10. 
+          h5 Tabla 9. 
           span Estratificación
         .tabla-a.tabla1.pc1.color-secundario
           table
@@ -672,18 +672,18 @@
                 td.fw-bold 8
                 td Analizar resultados para realizar plan de acción.
 
-    p.mb-4 En el siguiente gráfico podrá observar dos tipos de gráficos de estratificación, diligenciados para las causas de rechazo en los módulos de producción.
+    p.mb-4 En el siguiente gráfico podrá consultar dos tipos de gráficos de estratificación, diligenciados para las causas de rechazo en los módulos de producción.
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-6.mb-4.mb-lg-0
         .titulo-sexto.color-secundario.mb-3
-          h5 Figura 4. 
+          h5 Figura 5. 
           span Causas de rechazo en módulos de producción 1 
         figure
           img(src='@/assets/curso/temas/t2/fig4.svg', alt='Gráfico circular que representa la distribución porcentual de ocho tipos de defectos: Defecto 08 con 22 %, Defecto 03 con 15 %, Defecto 05 con 13 %, Defecto 06 con 12 %, Defecto 01 y Defecto 07 con 10 % cada uno, y Defecto 02 y Defecto 04 con 9 % cada uno.')
       .col-lg-6.mb-4.mb-lg-0
         .titulo-sexto.color-secundario.mb-3
-          h5 Figura 5. 
+          h5 Figura 6. 
           span Causas de rechazo en módulos de producción 2
         figure
           img(src='@/assets/curso/temas/t2/fig5.svg', alt='Gráfico tipo embudo con ocho niveles horizontales de distintos colores. Cada nivel muestra valores descendentes de 48, 32, 28, 26, 22, 22, 19 y 18. Todas las categorías aparecen etiquetadas como “Defecto 08”.')
@@ -759,7 +759,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
-          h5 Tabla 11.
+          h5 Tabla 10.
           span Diagrama de correlación
         .tabla-a.tabla1.pc1.color-secundario
           table
@@ -782,12 +782,12 @@
                 td Análisis de datos.
 
     p Estos gráficos se pueden realizar en el programa de office Excel.
-    p.mb-4 En el siguiente gráfico podrá observar un diagrama de correlación diligenciado para las variables tiempo de capacitación y cantidad de defectos.
+    p.mb-4 En el siguiente gráfico podrá consultar un diagrama de correlación diligenciado para las variables tiempo de capacitación y cantidad de defectos.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos='fade-down')
       .col-lg-10
         .titulo-sexto.color-secundario.mb-3
-          h5 Figura 6. 
+          h5 Figura 7. 
           span Diagrama dispersión tiempo capacitación y cantidad de defectos
         .bg9.p-4
           figure
@@ -906,7 +906,7 @@
 
     .mb-5(data-aos="fade-down")
       .titulo-sexto.color-secundario.mb-3
-        h5 Tabla 12. 
+        h5 Tabla 11. 
         span Gráficos de control
       .tabla-a.tabla1.pc1.color-acento-contenido
         table
@@ -990,16 +990,16 @@
     .row.justify-content-center.align-items-center.mb-4(data-aos='fade-down')
       .col-lg-10
         .titulo-sexto.color-secundario.mb-3
-          h5 Figura 7.
+          h5 Figura 8.
           span Gráficos de medias 
         .bg9.p-4.px-lg-5
           figure
-            img.px-lg-5(src='@/assets/curso/temas/t2/fig7.svg', alt='Gráfico de medias titulado “X” con eje horizontal “Número de pedido” y eje vertical “Fracción defectuosa” (0–3). La línea verde de componentes defectuosos fluctúa entre 1,0 y 2,8, con picos cercanos a 2,8 y mínimos alrededor de 1,0. Se muestran límites de control: LCI en color naranja alrededor de 1,0 y LCS en gris alrededor de 2,6. Algunos puntos superan el límite superior de control, mientras la mayoría permanece dentro del rango establecido.')
+            img.px-lg-5(src='@/assets/curso/temas/t2/fig7.svg', alt='Gráfico de medias titulado “X” con eje horizontal “Número de pedido” y eje vertical “Fracción defectuosa” (0-3). La línea verde de componentes defectuosos fluctúa entre 1,0 y 2,8, con picos cercanos a 2,8 y mínimos alrededor de 1,0. Se muestran límites de control: LCI en color naranja alrededor de 1,0 y LCS en gris alrededor de 2,6. Algunos puntos superan el límite superior de control, mientras la mayoría permanece dentro del rango establecido.')
 
     .row.justify-content-center.align-items-center.mb-4(data-aos='fade-down')
       .col-lg-10
         .titulo-sexto.color-secundario.mb-3
-          h5 Figura 8.
+          h5 Figura 9.
           span Gráficos de desviación estándar
         .bg9.p-4.px-lg-5
           figure
@@ -1008,7 +1008,7 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos='fade-down')
       .col-lg-10
         .titulo-sexto.color-secundario.mb-3
-          h5 Figura 9.
+          h5 Figura 10.
           span Gráficos de rangos
         .bg9.p-4.px-lg-5
           figure

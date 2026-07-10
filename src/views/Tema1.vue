@@ -59,7 +59,7 @@
                   .row.justify-content-between.align-items-center
                     .col.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
                       h4.mb-1 Tipos de defectos según visibilidad en prenda
-                      p.mb-0 Puede observar la clasificación de defectos en el material complementario. 
+                      p.mb-0 Puede consultar la clasificación de defectos en el material complementario. 
                     .col.col-lg-2.mb-3.mb-sm-0
                       a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_Niveles-de-defectos.pdf')" target="_blank" type="application/pdf")
                         span Descargar 
@@ -83,7 +83,7 @@
         .col-lg-4.col-md-7.col-9.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t1/tabs1-1.png', alt='')
         .col-lg-7.col-11
-          p.mb-4 Interpretar de forma incorrecta el diseño y desarrollar con las transformaciones, son deficiencias en las piezas, que causan defectos, en su mayoría pueden ser denominados defectos mayores en las prendas, algunos se pueden observar en la siguiente tabla:
+          p.mb-4 Interpretar de forma incorrecta el diseño y desarrollar con las transformaciones, son deficiencias en las piezas, que causan defectos, en su mayoría pueden ser denominados defectos mayores en las prendas, algunos se pueden consultar en la siguiente tabla:
           .mb-0
             .titulo-sexto.color-secundario.mb-3
               h5 Tabla 1. 
@@ -140,7 +140,7 @@
                           span.mb-0 Ensamble de piezas no corresponde.
       .row.justify-content-center.py-4.py-md-5(titulo="Corte")        
         .col-lg-11.col-11
-          p.mb-4 En cada actividad del proceso de corte se pueden presentar defectos, algunas veces la responsabilidad de SU presencia puede compartirse con el proceso anterior de patronaje, las acciones pueden ser correctivas en el área de confección. Algunos defectos se pueden observar en la siguiente tabla:
+          p.mb-4 En cada actividad del proceso de corte se pueden presentar defectos, algunas veces la responsabilidad de SU presencia puede compartirse con el proceso anterior de patronaje, las acciones pueden ser correctivas en el área de confección. Algunos defectos se pueden consultar en la siguiente tabla:
           .mb-0
             .titulo-sexto.color-secundario.mb-3
               h5 Tabla 2.
@@ -209,17 +209,12 @@
           img(src='@/assets/curso/temas/t1/tabs1-2.png', alt='')
         .col-lg-7.col-11
           p La gran cantidad de mano de obra en este proceso aumenta la variabilidad de la prenda y se requieren altos controles para evitar la presencia de defectos, con el fin de retener las piezas, prendas en proceso o prendas terminadas. Se deben tener en cuenta las áreas de visibilidad de la prenda para clasificar de esta forma los tipos de defectos, por consiguiente, se tiene área visible, menos visible y no visible, en donde a mayor visibilidad se debe considerar el rechazo de la prenda.
-          p.mb-4 Algunos defectos que se presentan en confección son: saltos de costura, costuras recogidas, costuras sueltas, costuras torcidas, costuras con remates nudosos.
-          a.anexo(:href="obtenerLink('/downloads/Anexos_Niveles-de-defectos.pdf')" target="_blank")
-            .anexo__icono
-              img(src="@/assets/template/icono-pdf.svg")
-            .anexo__texto
-              p.mb-0 #[b Anexo.] Puede observar los niveles de visibilidad para la clasificación de defectos en el material complementario. Niveles de defectos.
+          p.mb-4 Algunos defectos que se presentan en confección son: saltos de costura, costuras recogidas, costuras sueltas, costuras torcidas, costuras con remates nudosos.          
       .row.justify-content-center.py-4.py-md-5(titulo="Materia prima e insumos")        
         .col-lg-4.col-md-7.col-9.mb-3.mb-lg-0
           img(src='@/assets/curso/temas/t1/tabs1-3.png', alt='')
         .col-lg-7.col-11
-          p.mb-4 En la recepción de materia prima e insumos se pueden detectar los siguientes defectos como se muestra en la tabla:
+          p.mb-4 En la recepción de materia prima e insumos se pueden detectar los siguientes defectos como se presenta en la tabla:
           .mb-0
             .titulo-sexto.color-secundario.mb-3
               h5 Tabla 3.
@@ -452,10 +447,10 @@
 
     .mb-4(data-aos="fade-down")
       .titulo-sexto.color-secundario.mb-3
-        h5 Tabla 5.
+        h5 Figura 1.
         span Niveles de aceptación AQL
       figure
-        img(src='@/assets/curso/temas/t1/tabla5.svg', alt='')
+        img(src='@/assets/curso/temas/t1/tabla5.svg', alt='Tabla de niveles AQL que relaciona códigos, tamaños de muestra y criterios de aceptación y rechazo de lotes.')
 
     p.mb-4 A continuación, se mencionan los pasos necesarios para el uso de tablas militares para realizar un plan estándar de muestreo, de acuerdo con lo indicado en la norma ISO 2859.
 

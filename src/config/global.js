@@ -131,7 +131,7 @@ export default {
     {
       termino: 'AQL=NCA',
       significado:
-        ' Siglas de las palabras en inglés de <em>Level Aceptation Quality</em>, nivel de calidad aceptable, es el porcentaje máximo de unidades aceptable para el proceso, el cual debe estar especificado en la ficha técnica, contrato, órdenes de compra',
+        'siglas de las palabras en inglés de <em>Level Aceptation Quality</em>, nivel de calidad aceptable, es el porcentaje máximo de unidades aceptable para el proceso, el cual debe estar especificado en la ficha técnica, contrato, órdenes de compra',
     },
     {
       termino: 'Causas asignables',
@@ -154,7 +154,7 @@ export default {
         'Es el intervalo comprendido entre el mayor y menor valor de un número de datos con el fin de medir su variación.',
     },
     {
-      termino: 'Neps',
+      termino: '<em>Neps</em>',
       significado:
         'Pequeñas fibras gruesas en forma de puntos que se observan en el textil, es un defecto.',
     },
@@ -279,9 +279,9 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Laura Paola Gelvez Manosalva',
+          nombre: 'Laura Daniela Burgos Rueda',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
