@@ -395,7 +395,7 @@
         img(src='@/assets/curso/temas/t2/8.png', alt='')
       .col-lg-7(data-aos="fade-left")
         p Con el uso del histograma se pueden representar los datos, visualizando su dispersión con respecto a la media. Se utiliza con el fin de mostrar la variabilidad de los datos y analizar el comportamiento del proceso. Pertenece a la fase medir de #[em Six Sigma].
-        p Esta es una gráfica que permite analizar la distribución de la información o datos de un proceso en contraste con el número de ocurrencias de cada valor, la finalidad es diagnosticar rápidamente la panorámica del comportamiento de un proceso a través del tiempo, además permite ver la variación de los datos y analizar el comportamiento de un proceso.
+        p Esta es una gráfica que permite analizar la distribución de la información o datos de un proceso en contraste con el número de ocurrencias de cada valor, la finalidad es diagnosticar rápidamente la panorámica del comportamiento de un proceso a través del tiempo, además permite apreciar la variación de los datos y analizar el comportamiento de un proceso.
 
     p.mb-4 El procedimiento para realizar un histograma es el siguiente:
 
@@ -715,7 +715,7 @@
       .col-lg-9(data-aos="fade-right")
         p Llamado también de dispersión, investiga si existe relación entre dos características de calidad de un proceso. La característica de la abscisa que corresponde al eje en X representa la característica que se interpreta como causa, y la característica de las ordenadas, es decir en el eje Y corresponde a la variable interpretado como efecto.
         p Es útil en las características cuya relación se compruebe con este gráfico, debido que al controlar una, por consiguiente, se controla la otra característica.
-        p Hace parte de la fase analizar y mejorar de la herramienta #[em Six Sigma] y permite observar la relación entre dos variables y la intensidad de la relación, así como facilita el reconocimiento de correlaciones.
+        p Hace parte de la fase analizar y mejorar de la herramienta #[em Six Sigma] y permite evidenciar la relación entre dos variables y la intensidad de la relación, así como facilita el reconocimiento de correlaciones.
       .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/temas/t2/12.svg', alt='')
 
@@ -851,7 +851,7 @@
       .col-lg-5.d-none.d-lg-block(data-aos="fade-right")
         img(src='@/assets/curso/temas/t2/15.png', alt='')
       .col-lg-7(data-aos="fade-left")
-        p El espacio entre los límites marca el intervalo dentro del cual se espera que desarrolle el proceso evaluado. Los datos resultantes de la medición del desempeño observado del proceso en determinados periodos de tiempo se marcan con puntos y se unen en el gráfico, para realizar el análisis.
+        p El espacio entre los límites marca el intervalo dentro del cual se espera que desarrolle el proceso evaluado. Los datos resultantes de la medición del desempeño del proceso en determinados periodos de tiempo se marcan con puntos y se unen en el gráfico, para realizar el análisis.
         p Además de visualizar el comportamiento del proceso en el tiempo la herramienta permite determinar el estado de control de un proceso, determinar las muestras que caen dentro o fuera de los límites de control, determinar las trayectorias anormales en un proceso estandarizado y ajustar el proceso.
 
     p.mb-4 Se pueden desarrollar gráficos de control por variables o atributos, los cuales son:
