@@ -61,7 +61,7 @@
                       h4.mb-1 Tipos de defectos según visibilidad en prenda
                       p.mb-0 Puede consultar la clasificación de defectos en el material complementario. 
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_Niveles-de-defectos.pdf')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexos_Niveles-de-defectos.pdf')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
 
@@ -516,7 +516,7 @@
                       h4.mb-1 Uso de tablas militares MIL STD 105D
                       p.mb-0 Para conocer algunos ejemplos del uso de las tablas militares revise en el material complementario. 
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_Uso-de-tablas-militares-MIL-STD-105D.pdf')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexos_Uso-de-tablas-militares-MIL-STD-105D.pdf')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
 

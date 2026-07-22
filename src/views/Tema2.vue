@@ -382,7 +382,7 @@
                       h4.mb-1 Plantilla Control de calidad en puestos de revisión de producto terminado
                       p.mb-0 La plantilla de esta herramienta la encuentra disponible en el material complementario.
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Plantilla_ hoja_de_verificacion.xlsx')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Plantilla_ hoja_de_verificacion.xlsx')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
 
@@ -474,7 +474,7 @@
                       h4.mb-1 Instructivo para desarrollar histograma
                       p.mb-0 Para profundizar en esta herramienta consulte el material relacionado al histograma en el material complementario.
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_Instructivo-para-desarrollar-histograma.pdf')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexos_Instructivo-para-desarrollar-histograma.pdf')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
 
@@ -617,7 +617,7 @@
                       h4.mb-1 Instructivo para desarrollar el diagrama de Pareto
                       p.mb-0 Para profundizar en esta herramienta consulte el material relacionado al diagrama de Pareto en el material complementario.
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_Instructivo-para-desarrollar-el-diagrama-de-Pareto.pdf')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexos_Instructivo-para-desarrollar-el-diagrama-de-Pareto.pdf')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
     
@@ -703,7 +703,7 @@
                       h4.mb-1 Instructivo para desarrollar diagramas de estratificación
                       p.mb-0 Para profundizar en esta herramienta consulte el material relacionado al diagrama de estratificación en el material complementario.
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_Instructivo-para-desarrollar-diagramas-de-estratificacion.pdf')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexos_Instructivo-para-desarrollar-diagramas-de-estratificacion.pdf')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
 
@@ -808,7 +808,7 @@
                       h4.mb-1 Instructivo para desarrollar diagrama de correlación
                       p.mb-0 Para profundizar en esta herramienta consulte el material relacionado al diagrama de correlación en el material complementario.
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_Instructivo-para-desarrollar-diagrama-de-correlacion.pdf')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexos_Instructivo-para-desarrollar-diagrama-de-correlacion.pdf')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
 
@@ -1029,7 +1029,7 @@
                       h4.mb-1 Instructivo para desarrollar diagrama de control
                       p.mb-0 Para profundizar en esta herramienta consulte el material relacionado al diagrama de control en el material complementario
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_Instructivo-para-desarrollar-diagrama-de-control.pdf')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexos_Instructivo-para-desarrollar-diagrama-de-control.pdf')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
 
