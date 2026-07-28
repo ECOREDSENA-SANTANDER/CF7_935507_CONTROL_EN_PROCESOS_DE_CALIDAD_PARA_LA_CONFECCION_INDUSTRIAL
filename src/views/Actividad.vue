@@ -57,14 +57,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
-          texto:
-            '¿Qué es un defecto menor según la clasificación de calidad en confección?',
+          texto: '¿Qué caracteriza a un defecto menor en una prenda?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -94,13 +93,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿En qué consiste un defecto mayor en una prenda de vestir?',
+          texto: '¿Qué es un defecto mayor?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -129,14 +128,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            'De los siguientes, ¿cuál es un ejemplo de defecto crítico en confección?',
+            '¿Cuál de los siguientes ejemplos corresponde a un defecto crítico?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -162,14 +161,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
           texto:
-            '¿Por qué es importante ubicar el defecto por áreas en el informe de calidad?',
+            '¿Por qué es importante ubicar el defecto dentro del proceso de confección?',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
@@ -197,14 +196,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
           texto:
-            'Para definir un plan de muestreo usando tablas militares es necesario conocer:',
+            '¿Qué se debe tener en cuenta para realizar un plan de muestreo por atributos?',
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
@@ -231,14 +230,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
           texto:
-            'En las tablas militares para control de calidad, el nivel de inspección II corresponde:',
+            'En las tablas militares, ¿a qué corresponde el nivel de inspección general tipo II?',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
@@ -264,14 +263,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
           texto:
-            'Si un lote es rechazado en el plan de muestreo, la normativa sugiere:',
+            '¿Qué se debe hacer cuando se selecciona una inspección reducida y un lote es rechazado?',
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
@@ -297,13 +296,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
-          texto: '¿Cuáles son las partes principales de un informe de calidad?',
+          texto: '¿Cuál es la estructura básica de un informe de calidad?',
           imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
@@ -330,13 +329,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
-          texto: 'Un indicador de calidad se define como:',
+          texto: '¿Qué es un indicador de calidad?',
           imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
@@ -363,14 +362,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
-          texto:
-            '¿Cómo se calcula el porcentaje de reproceso en un proceso de confección?',
+          texto: '¿Cómo se calcula el indicador de reproceso?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -398,13 +396,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
-          texto: 'Las hojas de verificación o chequeo sirven para:',
+          texto: '¿Para qué sirve una hoja de verificación o chequeo?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -431,13 +429,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
-          texto: 'El histograma es una herramienta de calidad que permite:',
+          texto: '¿Cuál es el propósito del histograma?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -465,14 +463,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
-          texto:
-            'El diagrama de causa y efecto o espina de pescado ayuda a identificar:',
+          texto: '¿Qué representa el diagrama causa-efecto?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
@@ -500,13 +497,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
-          texto: 'El Diagrama de Pareto se basa en el principio de:',
+          texto: '¿Qué permite identificar el diagrama de Pareto?',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
@@ -534,13 +531,14 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 16,
-          texto: 'La estratificación en control de calidad consiste en:',
+          texto:
+            '¿Para qué sirve la estratificación en el análisis de calidad?',
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
@@ -568,13 +566,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 17,
-          texto: 'El diagrama de dispersión permite analizar:',
+          texto: '¿Qué permite investigar el diagrama de correlación?',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
@@ -601,13 +599,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 18,
-          texto: 'El gráfico de control por atributos está compuesto por:',
+          texto: '¿Cuáles son las líneas básicas de un gráfico de control?',
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
@@ -634,13 +632,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 19,
-          texto: 'Un plan de acción enfocado en calidad debe contener:',
+          texto: '¿Qué debe incluir un plan de calidad?',
           imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
@@ -667,13 +665,13 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 20,
-          texto: '¿Cuál es el objetivo de una acción correctiva en calidad?',
+          texto: '¿Qué busca una acción correctiva de calidad?',
           imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
@@ -700,9 +698,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
           mensaje_incorrecto:
-            'Revise nuevamente el contenido del componente formativo.',
+            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado:

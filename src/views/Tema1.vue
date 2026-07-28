@@ -59,9 +59,9 @@
                   .row.justify-content-between.align-items-center
                     .col.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
                       h4.mb-1 Tipos de defectos según visibilidad en prenda
-                      p.mb-0 Puede consultar la clasificación de defectos en el material complementario. 
+                      p.mb-0 Consulte el recurso disponible para ampliar la información sobre la clasificación de los defectos según su visibilidad en la prenda.
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexos_Niveles-de-defectos.pdf')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_Niveles-de-defectos.pdf')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
 
@@ -140,7 +140,7 @@
                           span.mb-0 Ensamble de piezas no corresponde.
       .row.justify-content-center.py-4.py-md-5(titulo="Corte")        
         .col-lg-11.col-11
-          p.mb-4 En cada actividad del proceso de corte se pueden presentar defectos, algunas veces la responsabilidad de SU presencia puede compartirse con el proceso anterior de patronaje, las acciones pueden ser correctivas en el área de confección. Algunos defectos se pueden consultar en la siguiente tabla:
+          p.mb-4 En cada actividad del proceso de corte se pueden presentar defectos, algunas veces la responsabilidad de su presencia puede compartirse con el proceso anterior de patronaje, las acciones pueden ser correctivas en el área de confección. Algunos defectos se pueden consultar en la siguiente tabla:
           .mb-0
             .titulo-sexto.color-secundario.mb-3
               h5 Tabla 2.
@@ -443,11 +443,11 @@
               td H
               td K
 
-    p.mb-4 En la tabla siguiente se presenta la distribución para los niveles de aceptación AQL.
+    p.mb-4 En la siguiente tabla se presentan los tamaños de muestra y los criterios de aceptación y rechazo correspondientes a los diferentes niveles AQL.
 
     .mb-4(data-aos="fade-down")
       .titulo-sexto.color-secundario.mb-3
-        h5 Figura 1.
+        h5 Tabla 5.
         span Niveles de aceptación AQL
       figure
         img(src='@/assets/curso/temas/t1/tabla5.svg', alt='Tabla de niveles AQL que relaciona códigos, tamaños de muestra y criterios de aceptación y rechazo de lotes.')
@@ -459,7 +459,7 @@
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Paso 1") 
             .col-12
-              p Con la tabla # 1 seleccionar la fila según el tamaño del lote.
+              p En la Tabla 4, seleccione la fila correspondiente al tamaño del lote.
           .row(numero="2" titulo="Paso 2") 
             .col-12
               p Según la fila elegida, se asigna el nivel en la columna de inspección general conforme a:
@@ -475,7 +475,7 @@
                   span.mb-0 #[b III:] rigurosa, estricta o severa, tamaño de muestra es más grande.
           .row(numero="3" titulo="Paso 3") 
            .col-12
-              p Teniendo la letra resultado del cruce de tamaño de lote y nivel de inspección, que corresponde a un código, se procede en tabla # 2 a seleccionar columna de tamaño de muestra según columna de código.
+              p Con la letra código obtenida al cruzar el tamaño del lote con el nivel de inspección en la Tabla 4, ubique dicho código en la primera columna de la Tabla 5 y consulte, en la misma fila, el tamaño de la muestra correspondiente.
           .row(numero="4" titulo="Paso 4") 
             .col-12
               p Teniendo los niveles de aceptación de los defectos, en donde conviene establecer:
@@ -514,9 +514,9 @@
                   .row.justify-content-between.align-items-center
                     .col.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
                       h4.mb-1 Uso de tablas militares MIL STD 105D
-                      p.mb-0 Para conocer algunos ejemplos del uso de las tablas militares revise en el material complementario. 
+                      p.mb-0 Consulte el recurso descargable para conocer ejemplos de aplicación de las tablas militares.
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexos_Uso-de-tablas-militares-MIL-STD-105D.pdf')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_Uso-de-tablas-militares-MIL-STD-105D.pdf')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
 

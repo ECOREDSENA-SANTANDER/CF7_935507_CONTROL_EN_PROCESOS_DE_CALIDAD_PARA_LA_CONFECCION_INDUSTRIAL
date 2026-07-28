@@ -208,7 +208,7 @@
 
     .mb-4
       .titulo-sexto.color-secundario.mb-3
-        h5 Tabla 5. 
+        h5 Tabla 6. 
         span Control de calidad en puestos de revisión de producto terminado
       .tabla-a.tabla1.tabl-resp.color-acento-contenido
         table
@@ -380,9 +380,9 @@
                   .row.justify-content-between.align-items-center
                     .col.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
                       h4.mb-1 Plantilla Control de calidad en puestos de revisión de producto terminado
-                      p.mb-0 La plantilla de esta herramienta la encuentra disponible en el material complementario.
+                      p.mb-0 Descargue la plantilla para registrar los resultados del control de calidad en la revisión de producto terminado.
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Plantilla_ hoja_de_verificacion.xlsx')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Plantilla_ hoja_de_verificacion.xlsx')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
 
@@ -402,7 +402,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
-          h5 Tabla 6. 
+          h5 Tabla 7. 
           span Histograma
         .tabla-a.tabla1.pc1.color-secundario
           table
@@ -472,9 +472,9 @@
                   .row.justify-content-between.align-items-center
                     .col.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
                       h4.mb-1 Instructivo para desarrollar histograma
-                      p.mb-0 Para profundizar en esta herramienta consulte el material relacionado al histograma en el material complementario.
+                      p.mb-0 Consulte el instructivo descargable para profundizar en la elaboración e interpretación de histogramas.
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexos_Instructivo-para-desarrollar-histograma.pdf')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_Instructivo-para-desarrollar-histograma.pdf')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
 
@@ -495,7 +495,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
-          h5 Tabla 7. 
+          h5 Tabla 8. 
           span Diagrama causa-efecto
         .tabla-a.tabla1.pc1.color-secundario
           table
@@ -545,7 +545,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
-          h5 Tabla 8. 
+          h5 Tabla 9. 
           span Diagrama de Pareto
         .tabla-a.tabla1.pc1.color-secundario
           table
@@ -615,9 +615,9 @@
                   .row.justify-content-between.align-items-center
                     .col.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
                       h4.mb-1 Instructivo para desarrollar el diagrama de Pareto
-                      p.mb-0 Para profundizar en esta herramienta consulte el material relacionado al diagrama de Pareto en el material complementario.
+                      p.mb-0 Consulte el instructivo descargable para profundizar en la elaboración e interpretación del diagrama de Pareto.
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexos_Instructivo-para-desarrollar-el-diagrama-de-Pareto.pdf')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_Instructivo-para-desarrollar-el-diagrama-de-Pareto.pdf')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
     
@@ -638,7 +638,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
-          h5 Tabla 9. 
+          h5 Tabla 10. 
           span Estratificación
         .tabla-a.tabla1.pc1.color-secundario
           table
@@ -701,9 +701,9 @@
                   .row.justify-content-between.align-items-center
                     .col.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
                       h4.mb-1 Instructivo para desarrollar diagramas de estratificación
-                      p.mb-0 Para profundizar en esta herramienta consulte el material relacionado al diagrama de estratificación en el material complementario.
+                      p.mb-0 Consulte el instructivo descargable para profundizar en la elaboración e interpretación de diagramas de estratificación.
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexos_Instructivo-para-desarrollar-diagramas-de-estratificacion.pdf')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_Instructivo-para-desarrollar-diagramas-de-estratificacion.pdf')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
 
@@ -759,7 +759,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
-          h5 Tabla 10.
+          h5 Tabla 11.
           span Diagrama de correlación
         .tabla-a.tabla1.pc1.color-secundario
           table
@@ -781,7 +781,7 @@
                 td.fw-bold 4
                 td Análisis de datos.
 
-    p Estos gráficos se pueden realizar en el programa de office Excel.
+    p Estos gráficos se pueden realizar en la aplicación Microsoft Excel.
     p.mb-4 En el siguiente gráfico podrá consultar un diagrama de correlación diligenciado para las variables tiempo de capacitación y cantidad de defectos.
 
     .row.justify-content-center.align-items-center.mb-4(data-aos='fade-down')
@@ -805,10 +805,10 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
-                      h4.mb-1 Instructivo para desarrollar diagrama de correlación
-                      p.mb-0 Para profundizar en esta herramienta consulte el material relacionado al diagrama de correlación en el material complementario.
+                      h4.mb-1 Instructivo para desarrollar el diagrama de correlación
+                      p.mb-0 Consulte el instructivo descargable para profundizar en la elaboración e interpretación del diagrama de correlación.
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexos_Instructivo-para-desarrollar-diagrama-de-correlacion.pdf')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_Instructivo-para-desarrollar-diagrama-de-correlacion.pdf')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
 
@@ -906,7 +906,7 @@
 
     .mb-5(data-aos="fade-down")
       .titulo-sexto.color-secundario.mb-3
-        h5 Tabla 11. 
+        h5 Tabla 12. 
         span Gráficos de control
       .tabla-a.tabla1.pc1.color-acento-contenido
         table
@@ -984,7 +984,7 @@
               td.fw-bold 14
               td Definir acciones si el proceso se encuentra fuera de control.
 
-    p Estos gráficos se pueden realizar en el programa de office Excel.
+    p Estos gráficos se pueden realizar en la aplicación Microsoft Excel.
     p.mb-4 En las siguientes imágenes podrá detallar gráficos de control de medias, rangos y desviación estándar, diligenciados para la cantidad de defectos en las referencias.       
 
     .row.justify-content-center.align-items-center.mb-4(data-aos='fade-down')
@@ -1026,10 +1026,10 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
-                      h4.mb-1 Instructivo para desarrollar diagrama de control
-                      p.mb-0 Para profundizar en esta herramienta consulte el material relacionado al diagrama de control en el material complementario
+                      h4.mb-1 Instructivo para desarrollar el diagrama de control
+                      p.mb-0 Consulte el instructivo descargable para profundizar en la elaboración e interpretación del diagrama de control.
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Anexos_Instructivo-para-desarrollar-diagrama-de-control.pdf')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos_Instructivo-para-desarrollar-diagrama-de-control.pdf')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
 
