@@ -178,7 +178,7 @@
     p Es una herramienta donde se registran los datos de manera organizada, para realizar los análisis correspondientes de calidad, se realiza con el fin de recolectar y utilizar los datos para posteriores análisis, reducir los riesgos asociados a la toma de decisiones y acelerar la detección y resolución de problemas, además de apoyar otras herramientas estadísticas de calidad.
 
     .row.justify-content-center.mb-4
-      .col-lg-7
+      .col-lg-7(data-aos="fade-right")
         .bg3.p-4.h-100
           p El procedimiento de elaboración es el siguiente:
           ul.lista-ul.fa-lista.list-ico.mb-0
@@ -200,13 +200,13 @@
             li.mb-0
               img(src='@/assets/curso/temas/t2/ico-list.svg')
               span.mb-0 Interpretar, analizar y aplicar la información según el objetivo planteado.
-      .col-lg-5.d-none.d-lg-block
+      .col-lg-5.d-none.d-lg-block(fade="fade-left")
         img(src='@/assets/curso/temas/t2/7.png', alt='')
 
     p Se conocen con anterioridad las hojas de inspección de producto en proceso, inspección de producto terminado, inspección de trazo y corte, las cuales recopilan información en los procesos relacionados de los defectos presentados, pero se pueden crear otras, según las necesidades de cada proceso y las directrices de la empresa.
     p.mb-4 Ejemplo. En la siguiente tabla se presenta una hoja de verificación diligenciada para una inspección de producto terminado.
 
-    .mb-4
+    .mb-4(data-aos="fade")
       .titulo-sexto.color-secundario.mb-3
         h5 Tabla 5. 
         span Control de calidad en puestos de revisión de producto terminado
