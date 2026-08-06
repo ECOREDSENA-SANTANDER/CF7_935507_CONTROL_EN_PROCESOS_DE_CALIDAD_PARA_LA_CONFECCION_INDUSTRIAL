@@ -20,7 +20,7 @@ export default {
       tema: 'Clasificación de defectos e informes de calidad',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión de los aprendices sobre los conceptos relacionados con la clasificación de defectos, niveles de calidad, ubicación del defecto, uso de tablas militares para planes de muestreo, informes e indicadores de calidad, herramientas básicas de control de calidad, análisis de datos, gráficos de calidad, planes de acción, acciones correctivas y acciones de mejora aplicadas al control de calidad en confección industrial. ',
+        '<b> Objetivo:</b> evaluar la comprensión de los aprendices sobre los conceptos relacionados con la clasificación de defectos, niveles de calidad, ubicación del defecto, uso de tablas militares para planes de muestreo, informes e indicadores de calidad, herramientas básicas de control de calidad, análisis de datos, gráficos de calidad, planes de acción, acciones correctivas y acciones de mejora aplicadas al control de calidad en confección industrial.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -57,9 +57,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 2,
@@ -93,9 +93,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 3,
@@ -128,9 +128,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 4,
@@ -161,9 +161,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 5,
@@ -196,9 +196,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 6,
@@ -230,9 +230,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 7,
@@ -263,9 +263,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 8,
@@ -296,9 +296,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 9,
@@ -329,9 +329,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 10,
@@ -362,9 +362,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 11,
@@ -396,9 +396,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 12,
@@ -429,9 +429,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 13,
@@ -463,9 +463,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 14,
@@ -497,9 +497,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 15,
@@ -531,9 +531,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 16,
@@ -566,9 +566,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 17,
@@ -599,9 +599,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 18,
@@ -632,9 +632,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 19,
@@ -665,9 +665,9 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
         {
           id: 20,
@@ -698,15 +698,15 @@ export default {
             },
           ],
           mensaje_correcto:
-            '¡Muy bien! Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo.',
+            'Se evidencia comprensión de los conceptos fundamentales abordados en el componente formativo. ',
           mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. Revise nuevamente el contenido del componente formativo.',
+            'Revise nuevamente el contenido del componente formativo. ',
         },
       ],
       mensaje_final_aprobado:
-        'Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo. ',
       mensaje_final_reprobado:
-        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica. ',
     },
   }),
 }

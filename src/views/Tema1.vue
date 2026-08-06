@@ -443,14 +443,14 @@
               td H
               td K
 
-    p.mb-4 En la siguiente tabla se presentan los tamaños de muestra y los criterios de aceptación y rechazo correspondientes a los diferentes niveles AQL.
+    p.mb-4 En la siguiente figura se presenta la distribución de los niveles de aceptación AQL.
 
     .mb-4(data-aos="fade-down")
       .titulo-sexto.color-secundario.mb-3
-        h5 Tabla 5.
+        h5 Figura 1.
         span Niveles de aceptación AQL
       figure
-        img(src='@/assets/curso/temas/t1/tabla5.svg', alt='Tabla de niveles AQL que relaciona códigos, tamaños de muestra y criterios de aceptación y rechazo de lotes.')
+        img(src='@/assets/curso/temas/t1/tabla5.svg', alt='Matriz de niveles AQL por código y tamaño de muestra, con criterios de aceptación y rechazo y flechas de continuidad.')
 
     p.mb-4 A continuación, se mencionan los pasos necesarios para el uso de tablas militares para realizar un plan estándar de muestreo, de acuerdo con lo indicado en la norma ISO 2859.
 
@@ -475,7 +475,7 @@
                   span.mb-0 #[b III:] rigurosa, estricta o severa, tamaño de muestra es más grande.
           .row(numero="3" titulo="Paso 3") 
            .col-12
-              p Con la letra código obtenida al cruzar el tamaño del lote con el nivel de inspección en la Tabla 4, ubique dicho código en la primera columna de la Tabla 5 y consulte, en la misma fila, el tamaño de la muestra correspondiente.
+              p Con la letra código obtenida al cruzar el tamaño del lote con el nivel de inspección en la Tabla 4, ubique dicho código en la primera columna de la Figura 1 y consulte, en la misma fila, el tamaño de la muestra correspondiente.
           .row(numero="4" titulo="Paso 4") 
             .col-12
               p Teniendo los niveles de aceptación de los defectos, en donde conviene establecer:

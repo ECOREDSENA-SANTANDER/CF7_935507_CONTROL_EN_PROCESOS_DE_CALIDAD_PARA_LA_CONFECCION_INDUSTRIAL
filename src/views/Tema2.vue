@@ -208,7 +208,7 @@
 
     .mb-4
       .titulo-sexto.color-secundario.mb-3
-        h5 Tabla 6. 
+        h5 Tabla 5. 
         span Control de calidad en puestos de revisión de producto terminado
       .tabla-a.tabla1.tabl-resp.color-acento-contenido
         table
@@ -402,7 +402,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
-          h5 Tabla 7. 
+          h5 Tabla 6. 
           span Histograma
         .tabla-a.tabla1.pc1.color-secundario
           table
@@ -495,7 +495,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
-          h5 Tabla 8. 
+          h5 Tabla 7. 
           span Diagrama causa-efecto
         .tabla-a.tabla1.pc1.color-secundario
           table
@@ -545,7 +545,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
-          h5 Tabla 9. 
+          h5 Tabla 8. 
           span Diagrama de Pareto
         .tabla-a.tabla1.pc1.color-secundario
           table
@@ -638,7 +638,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
-          h5 Tabla 10. 
+          h5 Tabla 9. 
           span Estratificación
         .tabla-a.tabla1.pc1.color-secundario
           table
@@ -759,7 +759,7 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
-          h5 Tabla 11.
+          h5 Tabla 10.
           span Diagrama de correlación
         .tabla-a.tabla1.pc1.color-secundario
           table
@@ -906,7 +906,7 @@
 
     .mb-5(data-aos="fade-down")
       .titulo-sexto.color-secundario.mb-3
-        h5 Tabla 12. 
+        h5 Tabla 11. 
         span Gráficos de control
       .tabla-a.tabla1.pc1.color-acento-contenido
         table
